@@ -1422,67 +1422,67 @@ const TourDetailsPage = () => {
               </motion.div>
 
               {/* Need Help? */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-inner border border-blue-100 p-5"
-              >
-                <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
-                  <Info className="w-5 h-5 text-darkblue mr-2" />
-                  Need Help?
-                </h3>
-                <p className="text-gray-600 mb-4 text-sm">
-                  Our travel specialists are available to
-                  answer any questions you may have about
-                  this tour.
-                </p>
-                <div className="space-y-3">
-                  <div className="flex items-center text-sm">
-                    <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
-                      <Phone className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <p className="font-medium">
-                        Call/WhatsApp Us
-                      </p>
-                      <a
-                        href="tel:+911234567890"
-                        className="text-darkblue hover:underline"
-                      >
-                        +91 95923 42444
-                      </a>
-                    </div>
-                  </div>
-                  <div className="flex items-center text-sm">
-                    <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
-                      <Mails className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <p className="font-medium">
-                        Email Us
-                      </p>
-                      <a
-                        href="mailto:info@amritsartours.com"
-                        className="text-darkblue hover:underline"
-                      >
-                        info@amritsarwalkingtours.com
-                      </a>
-                    </div>
-                  </div>
-                  <div className="flex items-center text-sm">
-                    <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
-                      <Clock className="w-4 h-4" />
-                    </div>
-                    <div>
-                      <p className="font-medium">
-                        Available
-                      </p>
-                      <p>Mon-Sun, 9AM-9PM IST</p>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
+             <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.2 }}
+                            className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-inner border border-blue-100 p-5"
+                          >
+                            <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                              <Info className="w-5 h-5 text-darkblue mr-2" />
+                              Need Help?
+                            </h3>
+                            <p className="text-gray-600 mb-4 text-sm">
+                              Our travel specialists are available to
+                              answer any questions you may have about
+                              this tour.
+                            </p>
+                            <div className="space-y-3">
+                              <div className="flex items-center text-sm">
+                                <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                  <Phone className="w-4 h-4" />
+                                </div>
+                                <div>
+                                  <p className="font-medium">
+                                    Call/WhatsApp Us
+                                  </p>
+                                  <a
+                                    href="tel:+911234567890"
+                                    className="text-darkblue hover:underline"
+                                  >
+                                    +91 95923 42444
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="flex items-center text-sm">
+                                <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                  <Mails className="w-4 h-4" />
+                                </div>
+                                <div>
+                                  <p className="font-medium">
+                                    Email Us
+                                  </p>
+                                  <a
+                                    href="mailto:info@amritsartours.com"
+                                    className="text-darkblue hover:underline"
+                                  >
+                                    info@amritsarwalkingtours.com
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="flex items-center text-sm">
+                                <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                  <Clock className="w-4 h-4" />
+                                </div>
+                                <div>
+                                  <p className="font-medium">
+                                    Available
+                                  </p>
+                                  <p>Mon-Sun, 9AM-9PM IST</p>
+                                </div>
+                              </div>
+                            </div>
+                          </motion.div>
             </div>
           </div>
         </div>

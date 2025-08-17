@@ -86,7 +86,7 @@ const Register = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3001/api/send-email",
+        "https://amritsarwalkingtourbackend.onrender.com/api/send-email",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -372,7 +372,6 @@ const Register = () => {
                                         key={tour.key}
                                         className="flex items-center p-3 bg-gray-50 rounded-xl border border-gray-100 hover:border-darkblue/30 transition"
                                       >
-                                       
                                         <div className="flex-1">
                                           <p className="font-medium text-gray-800">
                                             {tour.title}
@@ -722,14 +721,14 @@ const Register = () => {
                       href="tel:+911234567890"
                       className="text-darkblue font-medium hover:underline"
                     >
-                      +91 12345 67890
+                      +91 95923 42444
                     </a>{" "}
                     or{" "}
                     <a
                       href="mailto:info@amritsartours.com"
                       className="text-darkblue font-medium hover:underline"
                     >
-                      info@amritsartours.com
+                      info@amritsarwalkingtours.com
                     </a>
                   </p>
                 </div>

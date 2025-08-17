@@ -35,7 +35,7 @@ const Page2 = () => {
         <div className="lg:w-1/2 h-full">
           <div className="relative h-full min-h-[AUTO] rounded-xl overflow-hidden shadow-lg group">
             <img
-              src="public/assets/Fancy/Amritsar-Fancy2.png"
+              src="./assets/Fancy/Amritsar-Fancy2.png"
               className="w-[100%] h-full object-cover  transition-transform duration-700"
               alt="Nihang Sikh Warrior"
             />
@@ -106,14 +106,14 @@ const Page2 = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div className="overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
             <img
-              src="/assets/FoodWalk/photo (63).png"
+              src="./assets/FoodWalk/photo (63).png"
               className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
               alt="Amritsari Food"
             />
           </div>
           <div className="overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
             <img
-              src="/assets/FoodWalk/photo (20).png"
+              src="./assets/FoodWalk/photo (20).png"
               className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
               alt="Amritsari Cuisine"
             />

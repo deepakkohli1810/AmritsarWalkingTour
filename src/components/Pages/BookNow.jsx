@@ -734,7 +734,7 @@ const BookNow = () => {
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 sm:p-6 md:p-8 lg:p-10 overflow-y-auto">
             <div className="bg-white rounded-2xl shadow-2xl w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto overflow-hidden">
               <button
-                className="absolute top-3 right-3 text-gray-500 hover:text-darkblue text-xl sm:text-2xl transition duration-150"
+                className="absolute top-3 right-3 text-white hover:text-darkblue text-xl sm:text-2xl transition duration-150"
                 onClick={() => setShowVehicleModal(false)}
                 aria-label="Close"
               >

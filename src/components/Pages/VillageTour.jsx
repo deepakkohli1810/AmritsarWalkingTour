@@ -407,7 +407,7 @@ const TourDetailsPage = () => {
             {/* Tour Tabs */}
             <div className="mb-8">
               <div className="border-b border-gray-200">
-                <nav className="flex -mb-px space-x-8">
+                <nav className="flex -mb-px space-x-6 overflow-x-auto scrollbar-hide sm:space-x-8">
                   {[
                     {
                       id: "overview",
@@ -1468,13 +1468,13 @@ const TourDetailsPage = () => {
                         href="tel:+911234567890"
                         className="text-darkblue hover:underline"
                       >
-                        +91 12345 67890
+                        +91 95923 42444
                       </a>
                     </div>
                   </div>
                   <div className="flex items-center text-sm">
                     <div className="bg-blue-100 text-blue-700 w-8 h-8 rounded-full flex items-center justify-center mr-3">
-                      {/* <Mail className="w-4 h-4" /> */}
+                      <Mails className="w-4 h-4" />
                     </div>
                     <div>
                       <p className="font-medium">
@@ -1484,7 +1484,7 @@ const TourDetailsPage = () => {
                         href="mailto:info@amritsartours.com"
                         className="text-darkblue hover:underline"
                       >
-                        info@amritsartours.com
+                        info@amritsarwalkingtours.com
                       </a>
                     </div>
                   </div>

@@ -193,10 +193,10 @@ const Contact = () => {
                           Phone/WhatsApp
                         </h3>
                         <a
-                          href="https://wa.me/911234567890"
+                          href="https://wa.me/9592342444"
                           className="text-indigo-600 hover:underline flex items-center"
                         >
-                          +91 12345 67890{" "}
+                          +91 95923 42444{" "}
                           <FaWhatsapp className="ml-2 text-green-500" />
                         </a>
                       </div>
@@ -209,7 +209,7 @@ const Contact = () => {
                     </h3>
                     <div className="flex space-x-4">
                       <a
-                        href="https://instagram.com/amritsartours"
+                        href="https://www.instagram.com/amritsarwalkingtours/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gray-100 p-2 rounded-full hover:bg-gray-200 transition"
@@ -217,7 +217,7 @@ const Contact = () => {
                         <FaInstagram className="text-gray-700 text-xl" />
                       </a>
                       <a
-                        href="https://facebook.com/amritsartours"
+                        href="https://www.facebook.com/amritsarwalkingtour/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gray-100 p-2 rounded-full hover:bg-gray-200 transition"
@@ -225,7 +225,7 @@ const Contact = () => {
                         <FaFacebook className="text-gray-700 text-xl" />
                       </a>
                       <a
-                        href="https://youtube.com/@amritsartours"
+                        href="https://www.youtube.com/channel/UC1nVUbcLU8P_cLDkzQdewOw"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gray-100 p-2 rounded-full hover:bg-gray-200 transition"

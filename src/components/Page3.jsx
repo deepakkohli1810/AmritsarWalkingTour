@@ -11,7 +11,7 @@ const Page3 = () => {
     <div className="min-h-screen w-full px-0 py-10 bg-white ">
       {/* Heading */}
       <div className="">
-        <h1 className="text-2xl text-center sm:text-4xl md:text-4xl font-normal tracking-tighter text-darkblue">
+        <h1 className="text-3xl text-center sm:text-4xl md:text-4xl font-normal tracking-tighter text-darkblue">
           Our Curated Tours
         </h1>
         <p className="text-center text-xs lg:text-lg md:text-m  text-lightblue">
