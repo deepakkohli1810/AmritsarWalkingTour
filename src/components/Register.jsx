@@ -648,8 +648,10 @@ const Register = () => {
                             <a
                               href="tel:+9592342444"
                               className="font-medium hover:underline"
-                            ></a>
-                            95923 42444
+                            >
+                              +91 9592342444
+                            </a>
+                            .
                           </p>
                         </motion.div>
                       )}
@@ -716,17 +718,17 @@ const Register = () => {
                     Have questions about your tour? Contact
                     our travel specialists at{" "}
                     <a
-                      href="tel:+911234567890"
+                      href="tel:+919592342444"
                       className="text-darkblue font-medium hover:underline"
                     >
-                      +91 95923 42444
+                      +91 9592342444
                     </a>{" "}
                     or{" "}
                     <a
                       href="mailto:info@amritsartours.com"
                       className="text-darkblue font-medium hover:underline"
                     >
-                      info@amritsarwalkingtours.com
+                      info@amritsartours.com
                     </a>
                   </p>
                 </div>
