@@ -796,7 +796,7 @@ const BookNow = () => {
                     "bookingDetails",
                     JSON.stringify(bookingData)
                   );
-                  window.location.href = "/register";
+                  window.location.href = "#/register";
                 }}
                 className="px-4 pb-6 sm:px-6"
               >

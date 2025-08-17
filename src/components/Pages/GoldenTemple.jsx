@@ -45,8 +45,8 @@ const TourDetailsPage = () => {
     useState(false);
 
   const images = [
-    "public/assets/GoldenTemple/photo17.png",
-    "public/assets/GoldenTemple/photo13.png",
+    "./assets/GoldenTemple/photo17.png",
+    "https://deepakkohli1810.github.io/AmritsarWalkingTour/public/assets/GoldenTemple/photo13.png",
     "public/assets/GoldenTemple/photo14.png",
     "public/assets/GoldenTemple/photo15.png",
     "public/assets/GoldenTemple/photo16.png",

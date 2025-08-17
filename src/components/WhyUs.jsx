@@ -243,7 +243,7 @@ const WhyUs = () => {
         <h2 className="text-2xl sm:text-3xl font-bold text-darkblue mb-6">
           Ready to explore Amritsar with us?
         </h2>
-        <Link to="BookNow" className="inline-block">
+        <Link to="/BookNow" className="inline-block">
           <button className="bg-darkblue hover:bg-darkblue/90 text-white font-medium px-8 py-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
             Book Your Tour Today
           </button>
