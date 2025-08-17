@@ -85,7 +85,7 @@ const WhyUs = () => {
           <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
             <div className="relative">
               <img
-                src="/public/assets/photos/deepakji.jpg"
+                src="./assets/photos/deepakji.jpg"
                 className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-lg"
                 alt="Founder Deepak"
               />
