@@ -4,11 +4,11 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css' ;
 import App from './App.jsx' ;
 
-const HomeBase = "/AmritsarWalkingTour";
+const base = "/AmritsarWalkingTour";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={HomeBase}>
+    <BrowserRouter basename={base}>
       <App />
     </BrowserRouter>
   </StrictMode>
