@@ -45,17 +45,17 @@ const TourDetailsPage = () => {
     useState(false);
 
   const images = [
-    "/assets/GoldenTemple/photo17.png",
-    "/assets/GoldenTemple/photo13.png",
-    "/assets/GoldenTemple/photo14.png",
-    "/assets/GoldenTemple/photo15.png",
-    "/assets/GoldenTemple/photo16.png",
-    "/assets/GoldenTemple/photo18.png",
-    "/assets/GoldenTemple/photo19.png",
-    "/assets/GoldenTemple/photo20.png",
-    "/assets/GoldenTemple/photo21.png",
-    "/assets/GoldenTemple/photo22.png",
-    "/assets/GoldenTemple/photo23.png",
+    "public/assets/GoldenTemple/photo17.png",
+    "public/assets/GoldenTemple/photo13.png",
+    "public/assets/GoldenTemple/photo14.png",
+    "public/assets/GoldenTemple/photo15.png",
+    "public/assets/GoldenTemple/photo16.png",
+    "public/assets/GoldenTemple/photo18.png",
+    "public/assets/GoldenTemple/photo19.png",
+    "public/assets/GoldenTemple/photo20.png",
+    "public/assets/GoldenTemple/photo21.png",
+    "public/assets/GoldenTemple/photo22.png",
+    "public/assets/GoldenTemple/photo23.png",
   ];
 
   // Keyboard navigation for preview modal
