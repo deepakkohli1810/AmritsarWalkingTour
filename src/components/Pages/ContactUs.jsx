@@ -448,7 +448,7 @@ const Contact = () => {
                     View All Tours
                   </a>
                   <a
-                    href="tel:+911234567890"
+                    href="tel:+9195923 42444"
                     className="px-5 py-2.5 border border-gray-300 rounded-lg font-medium hover:bg-gray-50 transition flex items-center justify-center"
                   >
                     <FaWhatsapp className="mr-2 text-green-500" />{" "}
