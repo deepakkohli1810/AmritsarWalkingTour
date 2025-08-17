@@ -6,7 +6,7 @@ const tours = [
     title: "One Day Excursion",
     subtitle:
       "Experience Amritsar’s iconic landmarks in a single day",
-    image: "/assets/photos/photo10.png",
+    image: "./assets/photos/suggestive2.png",
     places: [
       "Golden Temple",
       "Jallianwala Bagh",
@@ -23,7 +23,7 @@ const tours = [
   {
     title: "Two Day Excursion",
     subtitle: "Dive into culture, food, and history",
-    image: "/assets/photos/photo3.png",
+    image: "./assets/photos/suggestive1.png",
     places: [
       "Heritage Walk",
       "Food Tour",
@@ -40,7 +40,7 @@ const tours = [
   {
     title: "Three Day Excursion",
     subtitle: "A complete immersive journey through Punjab",
-    image: "/assets/photos/photo7.png",
+    image: "./assets/photos/suggestive3.png",
     places: [
       "Village Experience",
       "Local Market Shopping",

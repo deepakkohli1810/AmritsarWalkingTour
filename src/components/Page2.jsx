@@ -49,7 +49,7 @@ const Page2 = () => {
         <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-yellow-500">
           <div className="overflow-hidden rounded-lg mb-6">
             <img
-              src="/public/assets/photos/golden temple.png"
+              src="./assets/photos/golden temple.png"
               className="w-full h-auto object-cover rounded-lg hover:scale-105 transition-transform duration-500"
               alt="Golden Temple"
             />
@@ -73,7 +73,7 @@ const Page2 = () => {
         <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-yellow-500">
           <div className="overflow-hidden rounded-lg mb-6">
             <img
-              src="/public/assets/photos/photo6.png"
+              src="./assets/photos/photo6.png"
               className="w-full h-[300px] sm:h-[400px] object-cover rounded-lg hover:scale-105 transition-transform duration-500"
               alt="Punjabi Culture"
             />
