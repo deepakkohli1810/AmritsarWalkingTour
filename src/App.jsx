@@ -23,7 +23,7 @@ import AllCards from "./components/cards/AllCards";
 import AboutUs from "./components/AboutUs";
 import Register from "./components/Register";
 import Contact from "./components/Pages/ContactUs";
-import TourDetailsPage from "./components/Pages/TourDetailsPage";
+
 import FoodWalkingTour from "./components/Pages/FoodWalkingTour";
 import Gallery from "./components/Pages/Gallery";
 import HeritageWalkingTour from "./components/Pages/HeritageWalkingTour";
@@ -73,10 +73,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/HeritageWalkingTour" element={<HeritageWalkingTour/>} />
-        <Route
-          path="/TourDetailsPage"
-          element={<TourDetailsPage />}
-        />
+        
       </Routes>
     </>
   );

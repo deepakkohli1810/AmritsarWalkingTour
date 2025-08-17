@@ -79,25 +79,25 @@ const TourDetailsPage = () => {
     useState(false);
 
   const images = [
-    "/assets/GoldenTemple/photo17.png",
-    "/assets/GoldenTemple/photo13.png",
-    "/assets/GoldenTemple/photo14.png",
-    "/assets/GoldenTemple/photo15.png",
-    "/assets/GoldenTemple/photo16.png",
-    "/assets/WagahBorder/photo26.png",
-    "/assets/WagahBorder/photo25.png",
-    "/assets/WagahBorder/photo27.png",
-    "/assets/WagahBorder/photo29.png",
-    "/assets/WagahBorder/photo30.png",
-    "/assets/WagahBorder/photo31.png",
-    "/assets/WagahBorder/photo32.png",
-    "/assets/WagahBorder/photo33.png",
-    "/assets/WagahBorder/photo34.png",
-    "/assets/WagahBorder/photo35.png",
-    "/assets/WagahBorder/photo36.png",
-    "/assets/WagahBorder/photo37.png",
-    "/assets/WagahBorder/photo38.png",
-    "/assets/WagahBorder/photo39.png",
+    "./assets/GoldenTemple/photo17.png",
+    "./assets/GoldenTemple/photo13.png",
+    "./assets/GoldenTemple/photo14.png",
+    "./assets/GoldenTemple/photo15.png",
+    "./assets/GoldenTemple/photo16.png",
+    "./assets/WagahBorder/photo26.png",
+    "./assets/WagahBorder/photo25.png",
+    "./assets/WagahBorder/photo27.png",
+    "./assets/WagahBorder/photo29.png",
+    "./assets/WagahBorder/photo30.png",
+    "./assets/WagahBorder/photo31.png",
+    "./assets/WagahBorder/photo32.png",
+    "./assets/WagahBorder/photo33.png",
+    "./assets/WagahBorder/photo34.png",
+    "./assets/WagahBorder/photo35.png",
+    "./assets/WagahBorder/photo36.png",
+    "./assets/WagahBorder/photo37.png",
+    "./assets/WagahBorder/photo38.png",
+    "./assets/WagahBorder/photo39.png",
    
   ];
 
@@ -1201,7 +1201,7 @@ const TourDetailsPage = () => {
               </div>
             </div>
             <div className="hidden lg:block relative">
-              <div className="absolute inset-0 bg-[url('/assets/WagahBorder/photo28.png')] bg-cover bg-center opacity-90"></div>
+              <div className="absolute inset-0 bg-[url('./assets/WagahBorder/photo28.png')] bg-cover bg-center opacity-90"></div>
               <div className="absolute inset-0 bg-gradient-to-l from-darkblue to-transparent/50"></div>
             </div>
           </div>

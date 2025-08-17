@@ -109,7 +109,7 @@ const vehicles = [
 const tourDetails = {
   goldenTemple: {
     title: "Golden Temple Tour",
-    img: " /assets/GoldenTemple/photo17.png",
+    img: " ./assets/GoldenTemple/photo17.png",
     price: "₹1500",
     includes: "Guided tour, Entry tickets, Refreshments",
     guide:
@@ -117,7 +117,7 @@ const tourDetails = {
   },
   jallianwalaBagh: {
     title: "Jallianwala Bagh Tour",
-    img: "/assets/GoldenTemple/photo14.png",
+    img: "./assets/GoldenTemple/photo14.png",
     price: "₹800",
     includes: "Entry tickets, Guided history walk",
     guide:
@@ -125,7 +125,7 @@ const tourDetails = {
   },
   borderTour: {
     title: "Border Tour",
-    img: "/public/assets/WagahBorder/photo26.png",
+    img: "./assets/WagahBorder/photo26.png",
     price: "₹1200",
     includes: "Transport, Entry tickets, Refreshments",
     guide:
@@ -133,7 +133,7 @@ const tourDetails = {
   },
   foodTour: {
     title: "Food Walking Tour",
-    img: "/assets/FoodWalk/photo (62).png",
+    img: "./assets/FoodWalk/photo (62).png",
     price: "₹1000",
     includes:
       "Street food tasting, Local guide, Water bottle",
@@ -141,14 +141,14 @@ const tourDetails = {
   },
   villageTour: {
     title: "Village Tour",
-    img: "/public/assets/photos/photo4.png",
+    img: "./assets/photos/photo4.png",
     price: "₹1800",
     includes: "Transport, Village activities, Lunch",
     guide: "Local villager guide, English/Hindi spoken.",
   },
   heritageWalk: {
     title: "Heritage Walk",
-    img: "/public/assets/photos/photo10.png",
+    img: "./assets/photos/photo10.png",
     price: "₹900",
     includes: "Walking tour, Entry tickets, Guidebook",
     guide: "Historian guide, English/Hindi/Punjabi.",

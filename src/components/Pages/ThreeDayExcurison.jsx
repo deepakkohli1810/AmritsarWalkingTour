@@ -82,28 +82,28 @@ const TourDetailsPage = () => {
     useState(false);
 
   const images = [
-    "/assets/VillageTour/photo (1).png",
-    "/assets/VillageTour/photo (2).png",
-    "/assets/VillageTour/photo (3).png",
-    "/assets/VillageTour/photo (4).png",
-    "/assets/VillageTour/photo (5).png",
-    "/assets/VillageTour/photo (6).png",
-    "/assets/VillageTour/photo (7).png",
-    "/assets/VillageTour/photo (8).png",
-    "/assets/VillageTour/photo (9).png",
-    "/assets/VillageTour/photo (10).png",
-    "/assets/VillageTour/photo (11).png",
-    "/assets/VillageTour/photo (12).png",
-    "/assets/VillageTour/photo (13).png",
-    "/assets/VillageTour/photo (14).png",
-    "/assets/VillageTour/photo (15).png",
-    "/assets/VillageTour/photo (16).png",
-    "/assets/VillageTour/photo (17).png",
-    "/assets/VillageTour/photo (18).png",
-    "/assets/VillageTour/photo (19).png",
-    "/assets/VillageTour/photo (20).png",
-    "/assets/VillageTour/photo (21).png",
-    "/assets/VillageTour/photo (22).png",
+    "./assets/VillageTour/photo (1).png",
+    "./assets/VillageTour/photo (2).png",
+    "./assets/VillageTour/photo (3).png",
+    "./assets/VillageTour/photo (4).png",
+    "./assets/VillageTour/photo (5).png",
+    "./assets/VillageTour/photo (6).png",
+    "./assets/VillageTour/photo (7).png",
+    "./assets/VillageTour/photo (8).png",
+    "./assets/VillageTour/photo (9).png",
+    "./assets/VillageTour/photo (10).png",
+    "./assets/VillageTour/photo (11).png",
+    "./assets/VillageTour/photo (12).png",
+    "./assets/VillageTour/photo (13).png",
+    "./assets/VillageTour/photo (14).png",
+    "./assets/VillageTour/photo (15).png",
+    "./assets/VillageTour/photo (16).png",
+    "./assets/VillageTour/photo (17).png",
+    "./assets/VillageTour/photo (18).png",
+    "./assets/VillageTour/photo (19).png",
+    "./assets/VillageTour/photo (20).png",
+    "./assets/VillageTour/photo (21).png",
+    "./assets/VillageTour/photo (22).png",
   ];
 
   // Keyboard navigation for preview modal
@@ -1294,7 +1294,7 @@ const TourDetailsPage = () => {
               </div>
             </div>
             <div className="hidden lg:block relative">
-              <div className="absolute inset-0 bg-[url('/assets/WagahBorder/photo28.png')] bg-cover bg-center opacity-90"></div>
+              <div className="absolute inset-0 bg-[url('./assets/WagahBorder/photo28.png')] bg-cover bg-center opacity-90"></div>
               <div className="absolute inset-0 bg-gradient-to-l from-darkblue to-transparent/50"></div>
             </div>
           </div>
