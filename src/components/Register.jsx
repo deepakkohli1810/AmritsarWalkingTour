@@ -646,12 +646,10 @@ const Register = () => {
                             issue persists, contact us
                             directly at{" "}
                             <a
-                              href="tel:+911234567890"
+                              href="tel:+9592342444"
                               className="font-medium hover:underline"
-                            >
-                              +91 12345 67890
-                            </a>
-                            .
+                            ></a>
+                            95923 42444
                           </p>
                         </motion.div>
                       )}
