@@ -18,23 +18,23 @@ import {
 } from "react-icons/fa";
 
 const Register = () => {
-    const greetings = [
-      "Sat Shri Akal🙏",
-      "Hello🙏",
-      "Namaste🙏",
-    ];
-    const [currentGreetingIndex, setCurrentGreetingIndex] =
-      useState(0);
+  const greetings = [
+    "Sat Shri Akal🙏",
+    "Hello🙏",
+    "Namaste🙏",
+  ];
+  const [currentGreetingIndex, setCurrentGreetingIndex] =
+    useState(0);
 
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentGreetingIndex(
-          (prevIndex) => (prevIndex + 1) % greetings.length
-        );
-      }, 2000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentGreetingIndex(
+        (prevIndex) => (prevIndex + 1) % greetings.length
+      );
+    }, 2000);
 
-      return () => clearInterval(interval);
-    }, []);
+    return () => clearInterval(interval);
+  }, []);
 
   const [bookingDetails, setBookingDetails] =
     useState(null);
@@ -86,7 +86,7 @@ const Register = () => {
 
     try {
       const response = await fetch(
-        "https://amritsarwalkingtourbackend.onrender.com/api/send-email",
+        "https://amritsarwalkingtourbackend.onrender.com/api/send-email", // ✅ Removed extra spaces
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -100,9 +100,14 @@ const Register = () => {
         localStorage.removeItem("bookingDetails");
       } else {
         setSubmitStatus("error");
+        console.error(
+          "Server error:",
+          result.error || "Unknown error"
+        );
       }
     } catch (error) {
       setSubmitStatus("error");
+      console.error("Network error:", error); 
     } finally {
       setIsSubmitting(false);
     }
